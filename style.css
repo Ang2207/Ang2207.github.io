@@ -1,0 +1,64 @@
+*{
+    padding: 0; margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.116), rgba(177, 29, 29, 0.589));
+}
+
+h1{
+    padding: 0.4rem;
+    color: rgba(14, 16, 24, 0.671);
+}
+
+.main{
+    width: 350px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.todo-input{
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+}
+
+.todo-button{
+    cursor: pointer;
+    background: rgba(14, 16, 24, 0.671);
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    color: white;
+}
+
+.todo-select{
+    padding: 0.3rem;
+    color: rgba(14, 16, 24, 0.671);
+    border-radius: 0.4rem;
+}
+
+.todo{
+    background: gray;
+    margin: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+}
+
+.todo .fa-check{
+    color: rgb(19, 107, 19);
+    cursor: pointer;
+}
+
+.todo .fa-trash{
+    color: rgb(36, 32, 32);
+    cursor: pointer;
+}
+
+.completed{
+    background: rgb(185, 194, 185);
+}
